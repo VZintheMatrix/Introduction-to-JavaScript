@@ -17,6 +17,11 @@ Do the following:
 
    HINT: no function required
 */
+let votingAge = 22;
+
+if(votingAge > 18){
+  console.log(true);
+}
 
 
 
@@ -31,6 +36,11 @@ Do the following:
    HINT: no function required
 */
 
+var drinkingAge;
+drinkingAge = 7;
+var partyAge;
+partyAge = drinkingAge;
+console.log(partyAge);
 
 
 
@@ -45,6 +55,8 @@ Do the following:
 
    HINT: look up the Number method
 */
+let str = "1999";
+
 
 
 
