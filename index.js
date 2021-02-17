@@ -75,9 +75,10 @@ Do the following:
 function multiply(a,b/*add your code here*/){
   return a*b;
 
-    ;/*add your code here*/
+    /*add your code here*/
   }
   console.log(multiply(5,6))
+
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -90,9 +91,14 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(humanYears/*add your code here*/){
+  return humanYears * 7;
+ 
+  /*add your code here*/
 }
+console.log(dogYears(7))
+
+
 
 
 
@@ -123,9 +129,15 @@ Use the hungryDog function and feeding requirements below to do the following:
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(/*add your code here*/){
-    /*add your code here*/
-  }
+function hungryDog(weight, age/*add your code here*/){
+  
+
+
+      /*add your code here*/
+
+}
+
+  
 
 
 
@@ -167,8 +179,8 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
+function miles(km/*add your code here*/){
+    return km * .621371/*add your code here*/
   }
 
 
@@ -181,8 +193,8 @@ Using the feet function below do the following:
   3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-    /*add your code here*/
+function feet(cm/*add your code here*/){
+    return cm / 30.48;/*add your code here*/
   }
  
 
