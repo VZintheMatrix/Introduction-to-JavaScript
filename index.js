@@ -37,7 +37,7 @@ Do the following:
 */
 
 var drinkingAge;
-drinkingAge = 7;
+drinkingAge = 21;
 var partyAge;
 partyAge = drinkingAge;
 console.log(partyAge);
@@ -55,7 +55,9 @@ Do the following:
 
    HINT: look up the Number method
 */
-let str = "1999";
+var str = "1999";
+
+console.log(Number(str));
 
 
 
@@ -70,10 +72,12 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
-  }
+function multiply(a,b/*add your code here*/){
+  return a*b;
 
+    ;/*add your code here*/
+  }
+  console.log(multiply(5,6))
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
