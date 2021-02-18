@@ -130,6 +130,26 @@ Use the hungryDog function and feeding requirements below to do the following:
 */  
 
 function hungryDog(weight, age/*add your code here*/){
+  if (age >=1 && weight <=5){
+    return weight * 0.05;
+  }else if (age >= 1 && weight >= 6 && weight <= 10){
+    return weight * 0.04;
+  }else if(age >= 1 && weight >= 11 && weight <= 15){
+    return weight * .03;
+  }
+  else if(age >= 1 && weight > 15 ){
+    return weight * .02;
+  }
+  else if (age < 1 && age >= .583){
+    return weight * .04;
+  }
+  else if (age < .583 && age >= .333){
+    return weight * .05;
+
+  }
+  else{
+    return weight * .10;
+  }
   
 
 
@@ -163,6 +183,7 @@ Use the game function below to do the following:
 */
 
 function game(user, computer){
+
     /*add your code here*/
 }
   
@@ -230,6 +251,21 @@ Using the grade function below do the following:
 */
   
 function grade(num/*Your Code here */){
+  if(num >= 90){
+    return 'you got an A';
+  }
+  else if(num >= 80 && num <= 89){
+    return 'you got a B';
+  }
+  else if(num >= 70 && num <= 79){
+    return 'you got a C';
+  }
+  else if( num >= 60 && num <= 69){
+    return 'you got a D';
+  }
+  else{
+    return 'you got an F'
+  }
   /*Your Code here */
   }
   
